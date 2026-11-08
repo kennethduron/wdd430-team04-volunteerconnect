@@ -24,9 +24,9 @@
 - Working branch at report preparation: `docs/volunteerconnect-spec`.
 - Initial repository commit: `3e1ab4f` (`chore: initialize VolunteerConnect proposal`).
 - Specification commit: `2835e2496cf67f174ddbc74f57c62f0d46717262` (`docs: specify VolunteerConnect MVP for team review`).
-- Latest report commit: `1a097b28371af327b5c58d481abdb9218f23cd94`; it is published to `docs/volunteerconnect-spec`.
+- The submission report and verification checklist are committed and published to `docs/volunteerconnect-spec`.
 - `main` currently points to `3e1ab4f`. It contains the initial application scaffold, README, proposal, activity log, and initial Spec-Kit constitution. It does not contain the feature specification, requirements checklist, or W02 evidence reports.
-- The PR branch updates the README, package metadata, constitution, and activity log, and adds the specification, checklist, and two W02 reports. The PR's head commit is `1a097b2`.
+- The PR branch updates the README, package metadata, constitution, and activity log, and adds the specification, checklist, and two W02 reports.
 - Pull Request #14 targets `main`, is open and unmerged, and GitHub reports `REVIEW_REQUIRED`. The API currently reports no review requests and no status checks. Do not merge until a teammate approval is recorded.
 - Branch protection is currently active: pull request required, one approval required, force pushes and deletions disabled, and enforcement includes administrators.
 - The Project Board is public and currently has 13 items; all 13 cards reference issues in `kennethduron/wdd430-team04-volunteerconnect`.
