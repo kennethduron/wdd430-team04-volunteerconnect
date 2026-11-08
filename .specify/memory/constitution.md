@@ -3,18 +3,23 @@
 ## Core Principles
 
 ### I. User Value and Focused MVP
+
 Every feature MUST serve a documented need for volunteers or community organizations. The MVP MUST prioritize finding opportunities, managing opportunities, and applying to volunteer; ideas outside that path belong in a later backlog unless the team approves a scope change.
 
 ### II. Accessible, Responsive Experience
+
 Every user-facing flow MUST use semantic HTML, keyboard-operable controls, visible focus, clear labels, and layouts that work on mobile and desktop. Contrast and interaction states MUST be checked before review.
 
 ### III. Typed, Reusable Architecture
+
 The application MUST use the Next.js App Router and strict TypeScript. Shared behavior and visual patterns MUST use reusable components where that improves consistency; client components MUST be limited to interactions that need browser state.
 
 ### IV. Secure Data and Explicit Boundaries
+
 Data access and authorization MUST be enforced on the server. Inputs MUST be validated at route boundaries, errors MUST be safe for users, and secrets MUST stay in local or hosting environment configuration and out of Git, logs, and client bundles.
 
 ### V. Verifiable Quality
+
 Changes MUST include appropriate checks for their behavior. Before a pull request requests review, lint, TypeScript checks, and a production build MUST pass; features that change important user journeys MUST include automated tests or a documented reason and manual verification plan.
 
 ## Technical Constraints

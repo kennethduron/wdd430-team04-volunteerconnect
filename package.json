@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"README.md\" \"CONTRIBUTING.md\" \"docs/**/*.md\" \"package.json\" \"tsconfig.json\" \".prettierrc.json\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"README.md\" \"CONTRIBUTING.md\" \"docs/**/*.md\" \"specs/**/*.md\" \".specify/memory/constitution.md\" \".specify/feature.json\" \"package.json\" \"tsconfig.json\" \".prettierrc.json\""
   },
   "dependencies": {
     "next": "16.4.5",
