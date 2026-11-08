@@ -6,6 +6,14 @@ VolunteerConnect is a **provisional WDD 430 Team 04 project proposal**. It explo
 
 The proposed audience is community organizations, nonprofit groups, students, and individuals interested in volunteering. The product aims to make it easier to move from finding an opportunity to coordinating participation and tracking an application.
 
+## WDD 430 planning links
+
+- Public repository: <https://github.com/kennethduron/wdd430-team04-volunteerconnect>
+- Team planning board (13 issues): <https://github.com/users/kennethduron/projects/3>
+- Individual proposal: [`docs/project-proposal.md`](docs/project-proposal.md)
+- Team preparation log: [`docs/team-activity-log.md`](docs/team-activity-log.md)
+- Project specification: [`specs/001-volunteerconnect-mvp/spec.md`](specs/001-volunteerconnect-mvp/spec.md)
+
 ## Planned capabilities
 
 - Register and authenticate volunteers and organizations.
@@ -62,6 +70,8 @@ Copy `.env.example` to `.env.local` only when local environment variables are in
 src/app/          Next.js App Router pages, layout, and global styles
 public/           Static assets
 .specify/         Spec-Kit project memory and specification artifacts
+specs/            Feature specification and quality checklist
+docs/             Proposal and factual preparation record
 ```
 
 ## Git workflow
@@ -74,7 +84,11 @@ public/           Static assets
 
 ## W02 status
 
-The Next.js starter is initialized with TypeScript, Tailwind CSS, App Router, and ESLint. Its starter screen has been replaced with a responsive proposal landing page. Team selection, meeting facts, collective review, the public repository, and the Project Board still require verification or team participation.
+The public repository was initialized with Next.js, TypeScript, Tailwind CSS, App Router, ESLint, and Prettier. It includes a responsive proposal landing page and a public board with 13 issues, including the required collective review and kickoff task. The project direction, meeting facts, constitution, and specification remain provisional until the team reviews them; no synchronous meeting or vote is claimed.
+
+## Deployment and API documentation
+
+No database, authentication provider, or deployment service is configured yet. The proposal records Supabase PostgreSQL, Auth.js v5, and Vercel as provisional choices. The planned API endpoints and data model are documented in the project specification; implementation documentation must be updated when the team approves the design.
 
 ## Week 03 next steps
 
