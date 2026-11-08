@@ -84,7 +84,7 @@ docs/             Proposal and factual preparation record
 
 ## W02 status
 
-The public repository was initialized with Next.js, TypeScript, Tailwind CSS, App Router, ESLint, and Prettier. It includes a responsive proposal landing page and a public board with 13 issues, including the required collective review and kickoff task. The project direction, meeting facts, constitution, and specification remain provisional until the team reviews them; no synchronous meeting or vote is claimed.
+The public repository was initialized with Next.js, TypeScript, Tailwind CSS, App Router, ESLint, and Prettier. It includes a responsive proposal landing page and a public board with 13 open issues, including the required collective review and kickoff task. The draft specification is in [PR #14](https://github.com/kennethduron/wdd430-team04-volunteerconnect/pull/14), awaiting a teammate review. The project direction, meeting facts, constitution, and specification remain provisional until the team reviews them; no synchronous meeting or vote is claimed.
 
 ## Deployment and API documentation
 
